@@ -14,9 +14,13 @@ export default function Header() {
   return <header>
     <nav className="fixed left-1/2 top-0 z-50 w-full -translate-x-1/2 border-b border-black/5 bg-white/[.99] px-[30px] py-5 shadow-soft md:py-[35px]">
       <div className="mx-auto flex max-w-[1150px] items-center justify-between">
-        <Link to="/" onClick={() => setOpen(false)}>
-          <img src={site.logo} alt={`${site.displayName} logo`} width="130" className="max-h-14 w-auto object-contain" />
-        </Link>
+<Link to="/" onClick={() => setOpen(false)}>
+  <img
+    src={site.logo}
+    alt={`${site.displayName} logo`}
+    className="h-20 md:h-24 w-auto object-contain"
+  />
+</Link>
         <ul className={`${open ? 'visible translate-y-0 opacity-100 pointer-events-auto' : 'invisible translate-y-[50px] opacity-0 pointer-events-none'} absolute left-0 top-[91px] flex h-[calc(100vh-91px)] w-full flex-col items-center gap-[30px] bg-white/90 p-[35px] backdrop-blur-[10px] transition duration-300 ease-in-out md:visible md:static md:h-auto md:w-auto md:translate-y-0 md:flex-row md:gap-[50px] md:bg-transparent md:p-0 md:opacity-100 md:pointer-events-auto`}>
           {links.map(([label,path]) => <li key={path}><NavLink to={path} onClick={() => setOpen(false)} className={({isActive}) => `text-base transition-colors duration-200 ${isActive ? 'text-saffron' : 'text-cadet hover:text-saffron'}`}>{label}</NavLink></li>)}
           <li><NavLink to="/login" onClick={() => setOpen(false)} className="text-base text-cadet transition-colors hover:text-saffron">Register/Login</NavLink></li>
