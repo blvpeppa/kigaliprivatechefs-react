@@ -1,41 +1,30 @@
-# Kigali Private Chefs — React + TailwindCSS frontend
+# Kigali Private Chefs — Release Website
 
-This is a frontend migration of the original PHP/Taaza UI into React + TailwindCSS. The original PHP project is preserved separately; this React project is intended to make UI work fast without Apache/XAMPP.
+React + Vite website prepared for production hosting.
 
-## Run locally
+## Release changes
+- Removed login/register/forgot-password flows.
+- Removed the shopping cart and checkout flow.
+- Added direct WhatsApp contact with the CEO: +250 781 118 679.
+- Added confirmed professional cards for Chef CK, Chef Perry, DJ Kim and Diane.
+- Removed the previous unverified team portraits.
+- Added department pages for apartments, private cars, buffet setup, tour guiders and private drivers.
+- Departments without confirmed information explicitly show that information is coming soon.
+- Replaced social links that are unavailable with an availability modal.
+- Added the confirmed Instagram link for Chef Cedrick.
+- Reworked the home/about/services/menu copy away from the old restaurant-template account system.
+- Added release-ready metadata and placeholder JPEG assets that can be replaced with approved photos.
 
+## Development
 ```bash
 npm install
 npm run dev
 ```
 
-Then open the local Vite URL shown in the terminal.
+## Production build
+```bash
+npm run build
+npm run preview
+```
 
-## Easy business updates
-
-Edit **`src/config/site.js`** for the company information:
-
-- company name
-- CEO name/title
-- email
-- phone number
-- logo path
-- CEO image path
-
-### Logo
-Replace:
-
-`public/assets/images/logo.png`
-
-with the new logo using the same filename, or change `site.logo` in `src/config/site.js`.
-
-### CEO photo
-Replace:
-
-`public/assets/images/ceo.jpg`
-
-with Mugisha Cedric's real image. No component changes are required.
-
-## Backend note
-
-The original project contains PHP/MySQL authentication, orders, admin tools, email, payment and booking handlers. This migration focuses on preserving the **UI** in React + TailwindCSS first. The form/cart/dashboard actions are prepared as frontend surfaces and should be connected to the existing PHP backend through APIs before production use.
+Before launch, replace placeholder JPEGs and illustrative client stories with approved/verified assets and testimonials where applicable.
