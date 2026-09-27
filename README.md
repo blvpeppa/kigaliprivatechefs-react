@@ -6,7 +6,7 @@ React + Vite website prepared for production hosting.
 - Removed login/register/forgot-password flows.
 - Removed the shopping cart and checkout flow.
 - Added direct WhatsApp contact with the CEO: +250 781 118 679.
-- Added confirmed professional cards for Chef CK, Chef Perry, DJ Kim and Diane.
+- Added confirmed professional cards for CEO Cedric, Chef Perry, DJ Kim and Diane.
 - Removed the previous unverified team portraits.
 - Added department pages for apartments, private cars, buffet setup, tour guiders and private drivers.
 - Departments without confirmed information explicitly show that information is coming soon.

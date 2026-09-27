@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { site } from '../config/site'
 
 const departments = [
-  ['01','Private Chefs','Chef CK and Chef Perry are currently listed. More professional information will be added as it is confirmed.'],
+  ['01','Private Chefs','CEO Cedric and Chef Perry are currently listed. More professional information will be added as it is confirmed.'],
   ['02','DJs','DJ Kim is currently listed for DJ services.'],
   ['03','Service','Diane is currently listed for service support.'],
   ['04','Apartments for Rent','Department available. Details coming soon.'],

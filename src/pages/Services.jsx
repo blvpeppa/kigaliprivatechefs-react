@@ -6,7 +6,7 @@ const departments = [
   ['buffet.jpeg','Buffet Setup Videos','/team/buffet-setup','Buffet setup videos and service information will be added here.'],
   ['tour-guides.jpeg','Tour Guiders','/team/tour-guiders','Tour guide profiles and availability information will be added here.'],
   ['private-drivers.jpeg','Private Drivers','/team/private-drivers','Private driver profiles and availability information will be added here.'],
-  ['service4.png','Private Chefs & Catering','/team/private-chefs','Chef CK and Chef Perry are currently listed. Contact the team for availability.'],
+  ['service4.png','Private Chefs & Catering','/team/private-chefs','CEO Cedric and Chef Perry are currently listed. Contact the team for availability.'],
   ['service3.png','DJs','/team/djs','DJ Kim is currently listed. Contact the team for current event availability.'],
   ['service2.png','Service','/team/service','Diane is currently listed. More service details will be added as confirmed.'],
 ]

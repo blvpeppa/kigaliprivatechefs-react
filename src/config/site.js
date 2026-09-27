@@ -25,7 +25,7 @@ export const teamCategories = [
 ]
 
 export const team = [
-  { slug: 'chef-ck', name: 'Chef CK', role: 'Private Chef', category: 'private-chefs', specialty: 'Private chef services', bio: 'Professional information coming soon. Contact Kigali Private Chefs for current availability and service details.', image: '/assets/images/team/chef-ck.jpeg' },
+  { slug: 'chef-ck', name: 'CEO Cedric', role: 'Private Chef', category: 'private-chefs', specialty: 'Private chef services', bio: 'Professional information coming soon. Contact Kigali Private Chefs for current availability and service details.', image: '/assets/images/team/chef-ck.jpeg' },
   { slug: 'chef-perry', name: 'Chef Perry', role: 'Private Chef', category: 'private-chefs', specialty: 'Private chef services', bio: 'Professional information coming soon. Contact Kigali Private Chefs for current availability and service details.', image: '/assets/images/team/chef-perry.jpeg' },
   { slug: 'dj-kim', name: 'DJ Kim', role: 'DJ', category: 'djs', specialty: 'DJ services', bio: 'Professional information coming soon. Contact Kigali Private Chefs for current availability and event details.', image: '/assets/images/team/dj-kim.jpeg' },
   { slug: 'diane', name: 'Diane', role: 'Service', category: 'service', specialty: 'Service support', bio: 'Professional information coming soon. Contact Kigali Private Chefs for current availability and service details.', image: '/assets/images/team/diane.jpeg' },
